@@ -30,7 +30,7 @@ client.on('ready', () => {
 
 
 
-const prefix = "2"
+const prefix = "l"
 client.on('message', async msg => { 
 	if (msg.author.bot) return undefined;
 	if (!msg.content.startsWith(prefix)) return undefined;
